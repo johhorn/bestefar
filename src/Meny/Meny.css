@@ -1,0 +1,23 @@
+.meny {
+
+}
+
+.meny a {
+    color: black;
+    text-decoration: none;
+}
+
+.meny a:visited {
+    color: black;
+}
+
+.meny ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meny li {
+    padding: 1em;
+}
