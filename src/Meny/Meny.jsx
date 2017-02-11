@@ -6,11 +6,12 @@ function Meny() {
     return (
         <nav className="meny">
             <ul>
-                <li><Link to="/verker/malerier">Malerier</Link></li>
-                <li><Link to="/verker/litografier">Litografier</Link></li>
-                <li><Link to="/verker/katalog">Katalog</Link></li>
-                <li><Link to="/tekster">Tekster</Link></li>
-                <li><Link to="/om">Om</Link></li>
+                <li className="meny-logo">
+                    <Link to="/">Adolph Denis Horn</Link>
+                </li>
+                <li><Link to="/verker/malerier">Paintings</Link></li>
+                <li><Link to="/verker/litografier">Litographic works</Link></li>
+                <li><Link to="/verker/katalog">Catalogue</Link></li>
                 </ul>
         </nav>
     );

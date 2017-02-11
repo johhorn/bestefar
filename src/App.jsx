@@ -1,11 +1,14 @@
 import React from 'react';
-import Meny from './Meny';
+import {
+    Meny,
+    UnderMeny
+} from './Meny';
 
 function App ({ children }) {
     return (
         <div>
             <Meny />
-            <h1>Adolph Denis Horn</h1>
+            <UnderMeny />
             {children}
         </div>
     );

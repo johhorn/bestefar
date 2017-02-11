@@ -1,10 +1,7 @@
-.meny {
-
-}
-
 .meny a {
     color: black;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .meny a:visited {
@@ -20,4 +17,8 @@
 
 .meny li {
     padding: 1em;
+}
+
+.meny-logo {
+    margin-right: auto;
 }
